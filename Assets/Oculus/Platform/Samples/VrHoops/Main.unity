@@ -13,7 +13,11 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   serializedVersion: 9
+=======
+  serializedVersion: 8
+>>>>>>> Bow_Original
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -39,30 +43,52 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
   m_IndirectSpecularColor: {r: 0.63964283, g: 0.63964283, b: 0.7338973, a: 1}
+<<<<<<< HEAD
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
+=======
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+>>>>>>> Bow_Original
   m_GIWorkflowMode: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
     m_IndirectOutputScale: 1
     m_AlbedoBoost: 1
+<<<<<<< HEAD
+=======
+    m_TemporalCoherenceThreshold: 1
+>>>>>>> Bow_Original
     m_EnvironmentLightingMode: 0
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
+<<<<<<< HEAD
     serializedVersion: 12
     m_Resolution: 2
     m_BakeResolution: 40
     m_AtlasSize: 1024
+=======
+    serializedVersion: 8
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+>>>>>>> Bow_Original
     m_AO: 0
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
+<<<<<<< HEAD
     m_ExtractAmbientOcclusion: 0
+=======
+>>>>>>> Bow_Original
     m_Padding: 2
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
@@ -77,6 +103,7 @@ LightmapSettings:
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
     m_PVRBounces: 2
+<<<<<<< HEAD
     m_PVREnvironmentSampleCount: 500
     m_PVREnvironmentReferencePointCount: 2048
     m_PVRFilteringMode: 0
@@ -87,6 +114,12 @@ LightmapSettings:
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
     m_PVREnvironmentMIS: 0
+=======
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 0
+>>>>>>> Bow_Original
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
@@ -94,11 +127,16 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
+<<<<<<< HEAD
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 0
+=======
+  m_LightingDataAsset: {fileID: 0}
+  m_ShadowMaskMode: 2
+>>>>>>> Bow_Original
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -118,15 +156,23 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+<<<<<<< HEAD
     debug:
       m_Flags: 0
+=======
+>>>>>>> Bow_Original
   m_NavMeshData: {fileID: 0}
 --- !u!224 &35101900
 RectTransform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1324771159}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1324771159}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1806899340}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.000030517578}
@@ -143,10 +189,16 @@ RectTransform:
 --- !u!1 &84494606
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 84494607}
   - component: {fileID: 84494611}
@@ -163,9 +215,14 @@ GameObject:
 --- !u!224 &84494607
 RectTransform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 84494606}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -74.0019}
@@ -188,6 +245,7 @@ RectTransform:
 --- !u!114 &84494608
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -195,6 +253,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84494606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1741964061, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
@@ -202,6 +268,7 @@ MonoBehaviour:
 --- !u!114 &84494609
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -209,6 +276,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84494606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1297475563, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
@@ -222,6 +297,7 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
+<<<<<<< HEAD
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
 --- !u!114 &84494610
@@ -234,15 +310,34 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+=======
+--- !u!114 &84494610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84494606}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.392}
   m_RaycastTarget: 1
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -251,6 +346,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &84494611
@@ -268,6 +364,20 @@ GameObject:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+--- !u!222 &84494611
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84494606}
+--- !u!1 &172085569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 172085570}
   - component: {fileID: 172085574}
@@ -284,9 +394,14 @@ GameObject:
 --- !u!224 &172085570
 RectTransform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 172085569}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.000010318793}
@@ -304,9 +419,14 @@ RectTransform:
 --- !u!65 &172085571
 BoxCollider:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 172085569}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -317,6 +437,7 @@ BoxCollider:
 --- !u!114 &172085572
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -324,6 +445,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 172085569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -337,20 +466,29 @@ MonoBehaviour:
     m_NormalColor: {r: 0.88235295, g: 0.936714, b: 1, a: 1}
     m_HighlightedColor: {r: 0.7425389, g: 0.74380744, b: 0.9264706, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+<<<<<<< HEAD
     m_SelectedColor: {r: 0.7425389, g: 0.74380744, b: 0.9264706, a: 1}
+=======
+>>>>>>> Bow_Original
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+<<<<<<< HEAD
     m_SelectedSprite: {fileID: 0}
+=======
+>>>>>>> Bow_Original
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+<<<<<<< HEAD
     m_SelectedTrigger: Highlighted
+=======
+>>>>>>> Bow_Original
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 172085573}
@@ -368,6 +506,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+<<<<<<< HEAD
 --- !u!114 &172085573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -378,15 +517,36 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+=======
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &172085573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 172085569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -395,6 +555,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &172085574
@@ -412,6 +573,20 @@ GameObject:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+--- !u!222 &172085574
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 172085569}
+--- !u!1 &209910155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 209910157}
   - component: {fileID: 209910156}
@@ -425,9 +600,14 @@ GameObject:
 --- !u!114 &209910156
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 209910155}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -437,9 +617,14 @@ MonoBehaviour:
 --- !u!4 &209910157
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 209910155}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 19.081802, y: 9.5783825, z: -12.635626}
@@ -451,10 +636,16 @@ Transform:
 --- !u!1 &211541101
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 279428260}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 279428260}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 1619323934}
   - component: {fileID: 211541104}
@@ -470,6 +661,7 @@ GameObject:
 --- !u!114 &211541102
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 279428260}
   m_PrefabAsset: {fileID: 0}
@@ -477,6 +669,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 279428260}
+  m_GameObject: {fileID: 211541101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
@@ -486,6 +686,7 @@ MonoBehaviour:
   m_PreferredHeight: 30
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
+<<<<<<< HEAD
   m_LayoutPriority: 1
 --- !u!114 &211541103
 MonoBehaviour:
@@ -497,15 +698,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+--- !u!114 &211541103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 279428260}
+  m_GameObject: {fileID: 211541101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.8301217, g: 0.8161765, b: 1, a: 1}
   m_RaycastTarget: 0
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
@@ -523,6 +743,7 @@ MonoBehaviour:
 --- !u!222 &211541104
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 279428260}
   m_PrefabAsset: {fileID: 0}
@@ -535,6 +756,17 @@ GameObject:
   m_PrefabInstance: {fileID: 1505289339}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 279428260}
+  m_GameObject: {fileID: 211541101}
+--- !u!1 &228960775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1505289339}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 1467797170}
   - component: {fileID: 228960778}
@@ -550,6 +782,7 @@ GameObject:
 --- !u!114 &228960776
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1505289339}
   m_PrefabAsset: {fileID: 0}
@@ -557,6 +790,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1505289339}
+  m_GameObject: {fileID: 228960775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
@@ -566,6 +807,7 @@ MonoBehaviour:
   m_PreferredHeight: 30
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
+<<<<<<< HEAD
   m_LayoutPriority: 1
 --- !u!114 &228960777
 MonoBehaviour:
@@ -577,15 +819,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+--- !u!114 &228960777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1505289339}
+  m_GameObject: {fileID: 228960775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.8301217, g: 0.8161765, b: 1, a: 1}
   m_RaycastTarget: 0
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
@@ -603,6 +864,7 @@ MonoBehaviour:
 --- !u!222 &228960778
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1505289339}
   m_PrefabAsset: {fileID: 0}
@@ -615,6 +877,17 @@ GameObject:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1505289339}
+  m_GameObject: {fileID: 228960775}
+--- !u!1 &243815980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 243815981}
   m_Layer: 0
@@ -627,9 +900,14 @@ GameObject:
 --- !u!4 &243815981
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 243815980}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -644,10 +922,16 @@ Transform:
 --- !u!1 &256575326
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 256575327}
   - component: {fileID: 256575331}
@@ -664,9 +948,14 @@ GameObject:
 --- !u!224 &256575327
 RectTransform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 256575326}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -74.0019}
@@ -689,6 +978,7 @@ RectTransform:
 --- !u!114 &256575328
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -696,6 +986,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 256575326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1741964061, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
@@ -703,6 +1001,7 @@ MonoBehaviour:
 --- !u!114 &256575329
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -710,6 +1009,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 256575326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1297475563, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
@@ -723,6 +1030,7 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
+<<<<<<< HEAD
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
 --- !u!114 &256575330
@@ -735,15 +1043,34 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+=======
+--- !u!114 &256575330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 256575326}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.392}
   m_RaycastTarget: 1
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -752,6 +1079,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &256575331
@@ -764,97 +1092,176 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 --- !u!1001 &279428260
 PrefabInstance:
+=======
+--- !u!222 &256575331
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 256575326}
+--- !u!1001 &279428260
+Prefab:
+>>>>>>> Bow_Original
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 84494607}
     m_Modifications:
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.x
       value: 255
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.y
       value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.x
       value: 510
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.y
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
@@ -868,6 +1275,29 @@ GameObject:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_IsPrefabParent: 0
+--- !u!1 &307801036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 307801039}
   - component: {fileID: 307801038}
@@ -882,6 +1312,7 @@ GameObject:
 --- !u!114 &307801037
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -889,6 +1320,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 307801036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_HorizontalAxis: Horizontal
@@ -901,6 +1340,7 @@ MonoBehaviour:
 --- !u!114 &307801038
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -908,6 +1348,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 307801036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
@@ -916,9 +1364,14 @@ MonoBehaviour:
 --- !u!4 &307801039
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 307801036}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -928,117 +1381,203 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &317517206
+<<<<<<< HEAD
 PrefabInstance:
+=======
+Prefab:
+>>>>>>> Bow_Original
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 256575327}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 3}
       propertyPath: m_Name
       value: LeaderboardText (1)
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
         type: 3}
+=======
+    - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.z
       value: -0.0000076293945
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.x
       value: 255
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.y
       value: -45
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.x
       value: 510
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.y
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -1052,6 +1591,33 @@ GameObject:
   m_PrefabInstance: {fileID: 1370402718}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 2}
+      propertyPath: m_Name
+      value: LeaderboardText (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_IsPrefabParent: 0
+--- !u!1 &338205985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1370402718}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 2137523811}
   - component: {fileID: 338205988}
@@ -1067,6 +1633,7 @@ GameObject:
 --- !u!114 &338205986
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1370402718}
   m_PrefabAsset: {fileID: 0}
@@ -1074,6 +1641,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1370402718}
+  m_GameObject: {fileID: 338205985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
@@ -1083,6 +1658,7 @@ MonoBehaviour:
   m_PreferredHeight: 30
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
+<<<<<<< HEAD
   m_LayoutPriority: 1
 --- !u!114 &338205987
 MonoBehaviour:
@@ -1094,15 +1670,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+--- !u!114 &338205987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1370402718}
+  m_GameObject: {fileID: 338205985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.8301217, g: 0.8161765, b: 1, a: 1}
   m_RaycastTarget: 0
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
@@ -1120,6 +1715,7 @@ MonoBehaviour:
 --- !u!222 &338205988
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1370402718}
   m_PrefabAsset: {fileID: 0}
@@ -1131,6 +1727,16 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 317517206}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1370402718}
+  m_GameObject: {fileID: 338205985}
+--- !u!224 &385258232
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 317517206}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1587871436}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.0000076293945}
@@ -1147,10 +1753,16 @@ RectTransform:
 --- !u!1 &420466412
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1564930575}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1564930575}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 1402262128}
   - component: {fileID: 420466415}
@@ -1166,6 +1778,7 @@ GameObject:
 --- !u!114 &420466413
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1564930575}
   m_PrefabAsset: {fileID: 0}
@@ -1173,6 +1786,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1564930575}
+  m_GameObject: {fileID: 420466412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
@@ -1182,6 +1803,7 @@ MonoBehaviour:
   m_PreferredHeight: 30
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
+<<<<<<< HEAD
   m_LayoutPriority: 1
 --- !u!114 &420466414
 MonoBehaviour:
@@ -1193,15 +1815,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+--- !u!114 &420466414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1564930575}
+  m_GameObject: {fileID: 420466412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.8301217, g: 0.8161765, b: 1, a: 1}
   m_RaycastTarget: 0
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
@@ -1219,6 +1860,7 @@ MonoBehaviour:
 --- !u!222 &420466415
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1564930575}
   m_PrefabAsset: {fileID: 0}
@@ -1226,116 +1868,205 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 --- !u!1001 &463059772
 PrefabInstance:
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1564930575}
+  m_GameObject: {fileID: 420466412}
+--- !u!1001 &463059772
+Prefab:
+>>>>>>> Bow_Original
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 84494607}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 3}
       propertyPath: m_Name
       value: LeaderboardText (3)
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
         type: 3}
+=======
+    - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.z
       value: -0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.x
       value: 255
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.y
       value: -105
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.x
       value: 510
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.y
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -1348,6 +2079,32 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1438428034}
   m_PrefabAsset: {fileID: 0}
+=======
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 2}
+      propertyPath: m_Name
+      value: LeaderboardText (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_IsPrefabParent: 0
+--- !u!224 &479340575
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1438428034}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 558426064}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.000030517578}
@@ -1364,10 +2121,16 @@ RectTransform:
 --- !u!1 &558426064
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1438428034}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1438428034}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 479340575}
   - component: {fileID: 558426067}
@@ -1383,6 +2146,7 @@ GameObject:
 --- !u!114 &558426065
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1438428034}
   m_PrefabAsset: {fileID: 0}
@@ -1390,6 +2154,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1438428034}
+  m_GameObject: {fileID: 558426064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
@@ -1399,6 +2171,7 @@ MonoBehaviour:
   m_PreferredHeight: 30
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
+<<<<<<< HEAD
   m_LayoutPriority: 1
 --- !u!114 &558426066
 MonoBehaviour:
@@ -1410,15 +2183,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+--- !u!114 &558426066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1438428034}
+  m_GameObject: {fileID: 558426064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.8301217, g: 0.8161765, b: 1, a: 1}
   m_RaycastTarget: 0
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
@@ -1436,6 +2228,7 @@ MonoBehaviour:
 --- !u!222 &558426067
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1438428034}
   m_PrefabAsset: {fileID: 0}
@@ -1443,11 +2236,19 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 --- !u!1001 &560682947
 PrefabInstance:
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1438428034}
+  m_GameObject: {fileID: 558426064}
+--- !u!1001 &560682947
+Prefab:
+>>>>>>> Bow_Original
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1000011920757618, guid: cf3f39c980574304d8f8817cd3dfa941, type: 3}
       propertyPath: m_Name
       value: PlayerArea 1
@@ -1505,6 +2306,59 @@ GameObject:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011920757618, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_Name
+      value: PlayerArea 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &560682948 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114000013448210984, guid: cf3f39c980574304d8f8817cd3dfa941,
+    type: 2}
+  m_PrefabInternal: {fileID: 560682947}
+  m_Script: {fileID: 11500000, guid: 4bf1a3ead6c1aa341873bdfda4366001, type: 3}
+--- !u!1 &684747994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 684747995}
   - component: {fileID: 684747998}
@@ -1520,9 +2374,14 @@ GameObject:
 --- !u!224 &684747995
 RectTransform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 684747994}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 5.2}
@@ -1540,6 +2399,7 @@ RectTransform:
 --- !u!114 &684747996
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1547,6 +2407,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 684747994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
@@ -1557,6 +2425,7 @@ MonoBehaviour:
 --- !u!114 &684747997
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1564,6 +2433,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 684747994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
@@ -1579,9 +2456,14 @@ MonoBehaviour:
 --- !u!223 &684747998
 Canvas:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 684747994}
   m_Enabled: 1
   serializedVersion: 3
@@ -1600,10 +2482,16 @@ Canvas:
 --- !u!1 &730374162
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 730374163}
   - component: {fileID: 730374165}
@@ -1618,9 +2506,14 @@ GameObject:
 --- !u!224 &730374163
 RectTransform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 730374162}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -65}
@@ -1637,6 +2530,7 @@ RectTransform:
 --- !u!114 &730374164
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1644,15 +2538,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 730374162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.39484212, g: 0.8014706, b: 0.48177645, a: 1}
   m_RaycastTarget: 1
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 40
@@ -1670,6 +2580,7 @@ MonoBehaviour:
 --- !u!222 &730374165
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1677,116 +2588,205 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 --- !u!1001 &739111300
 PrefabInstance:
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 730374162}
+--- !u!1001 &739111300
+Prefab:
+>>>>>>> Bow_Original
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 256575327}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 3}
       propertyPath: m_Name
       value: LeaderboardText (4)
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
         type: 3}
+=======
+    - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.z
       value: -0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.x
       value: 255
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.y
       value: -135
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.x
       value: 510
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.y
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -1800,6 +2800,33 @@ GameObject:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 2}
+      propertyPath: m_Name
+      value: LeaderboardText (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_IsPrefabParent: 0
+--- !u!1 &769217279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 769217280}
   - component: {fileID: 769217282}
@@ -1814,9 +2841,14 @@ GameObject:
 --- !u!224 &769217280
 RectTransform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 769217279}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1833,6 +2865,7 @@ RectTransform:
 --- !u!114 &769217281
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1840,15 +2873,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 769217279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 40
@@ -1866,6 +2915,7 @@ MonoBehaviour:
 --- !u!222 &769217282
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1877,6 +2927,16 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 739111300}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 769217279}
+--- !u!224 &931517370
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 739111300}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1592952455}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.000030517578}
@@ -1893,10 +2953,16 @@ RectTransform:
 --- !u!1 &971851768
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1186051543}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1186051543}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 1881550245}
   - component: {fileID: 971851771}
@@ -1912,6 +2978,7 @@ GameObject:
 --- !u!114 &971851769
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1186051543}
   m_PrefabAsset: {fileID: 0}
@@ -1919,6 +2986,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1186051543}
+  m_GameObject: {fileID: 971851768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
@@ -1928,6 +3003,7 @@ MonoBehaviour:
   m_PreferredHeight: 30
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
+<<<<<<< HEAD
   m_LayoutPriority: 1
 --- !u!114 &971851770
 MonoBehaviour:
@@ -1939,15 +3015,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+--- !u!114 &971851770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1186051543}
+  m_GameObject: {fileID: 971851768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.8301217, g: 0.8161765, b: 1, a: 1}
   m_RaycastTarget: 0
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
@@ -1965,6 +3060,7 @@ MonoBehaviour:
 --- !u!222 &971851771
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1186051543}
   m_PrefabAsset: {fileID: 0}
@@ -1977,6 +3073,17 @@ GameObject:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1186051543}
+  m_GameObject: {fileID: 971851768}
+--- !u!1 &994596012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 994596013}
   m_Layer: 0
@@ -1989,9 +3096,14 @@ GameObject:
 --- !u!4 &994596013
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 994596012}
   m_LocalRotation: {x: 0.06507625, y: -0.4081587, z: 0.028063396, w: 0.9101561}
   m_LocalPosition: {x: 29.237, y: 6.771, z: -19.088}
@@ -2002,12 +3114,17 @@ Transform:
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 8.127001, y: -48.316, z: -0.118}
 --- !u!1001 &1017331430
+<<<<<<< HEAD
 PrefabInstance:
+=======
+Prefab:
+>>>>>>> Bow_Original
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1000011920757618, guid: cf3f39c980574304d8f8817cd3dfa941, type: 3}
       propertyPath: m_Name
       value: PlayerArea 2
@@ -2065,6 +3182,59 @@ GameObject:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 7.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011920757618, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_Name
+      value: PlayerArea 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &1017331431 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114000013448210984, guid: cf3f39c980574304d8f8817cd3dfa941,
+    type: 2}
+  m_PrefabInternal: {fileID: 1017331430}
+  m_Script: {fileID: 11500000, guid: 4bf1a3ead6c1aa341873bdfda4366001, type: 3}
+--- !u!1 &1103670977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 1103670979}
   - component: {fileID: 1103670978}
@@ -2078,6 +3248,7 @@ GameObject:
 --- !u!108 &1103670978
 Light:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2086,11 +3257,22 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1103670977}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+>>>>>>> Bow_Original
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
+<<<<<<< HEAD
   m_InnerSpotAngle: 21.802082
+=======
+>>>>>>> Bow_Original
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -2100,6 +3282,7 @@ Light:
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
+<<<<<<< HEAD
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -2118,6 +3301,8 @@ Light:
       e32: 0
       e33: 1
     m_UseCullingMatrixOverride: 0
+=======
+>>>>>>> Bow_Original
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
@@ -2125,23 +3310,35 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+<<<<<<< HEAD
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
+=======
+  m_Lightmapping: 4
+>>>>>>> Bow_Original
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
+<<<<<<< HEAD
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
+=======
+>>>>>>> Bow_Original
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &1103670979
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1103670977}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 5.89, y: 11.65, z: -8.74}
@@ -2153,10 +3350,16 @@ Transform:
 --- !u!1 &1184375200
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 1184375201}
   - component: {fileID: 1184375204}
@@ -2173,9 +3376,14 @@ GameObject:
 --- !u!224 &1184375201
 RectTransform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1184375200}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2193,6 +3401,7 @@ RectTransform:
 --- !u!114 &1184375202
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2200,6 +3409,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184375200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -2213,20 +3430,29 @@ MonoBehaviour:
     m_NormalColor: {r: 0.88235295, g: 0.936714, b: 1, a: 1}
     m_HighlightedColor: {r: 0.7425389, g: 0.74380744, b: 0.9264706, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+<<<<<<< HEAD
     m_SelectedColor: {r: 0.7425389, g: 0.74380744, b: 0.9264706, a: 1}
+=======
+>>>>>>> Bow_Original
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+<<<<<<< HEAD
     m_SelectedSprite: {fileID: 0}
+=======
+>>>>>>> Bow_Original
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+<<<<<<< HEAD
     m_SelectedTrigger: Highlighted
+=======
+>>>>>>> Bow_Original
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1184375203}
@@ -2244,6 +3470,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+<<<<<<< HEAD
 --- !u!114 &1184375203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2254,15 +3481,36 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+=======
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1184375203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184375200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -2271,6 +3519,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1184375204
@@ -2287,6 +3536,19 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+--- !u!222 &1184375204
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184375200}
+--- !u!65 &1184375205
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1184375200}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -2295,117 +3557,203 @@ BoxCollider:
   m_Size: {x: 400, y: 80, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1186051543
+<<<<<<< HEAD
 PrefabInstance:
+=======
+Prefab:
+>>>>>>> Bow_Original
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 256575327}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 3}
       propertyPath: m_Name
       value: LeaderboardText (5)
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
         type: 3}
+=======
+    - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.z
       value: -0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.x
       value: 255
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.y
       value: -165
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.x
       value: 510
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.y
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -2414,11 +3762,35 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 0}
 --- !u!1001 &1272031793
 PrefabInstance:
+=======
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 2}
+      propertyPath: m_Name
+      value: LeaderboardText (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_IsPrefabParent: 0
+--- !u!1001 &1272031793
+Prefab:
+>>>>>>> Bow_Original
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1000011920757618, guid: cf3f39c980574304d8f8817cd3dfa941, type: 3}
       propertyPath: m_Name
       value: PlayerArea 3
@@ -2471,116 +3843,247 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!1001 &1324771159
 PrefabInstance:
+=======
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 14.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011849390000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011920757618, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+      propertyPath: m_Name
+      value: PlayerArea 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: cf3f39c980574304d8f8817cd3dfa941, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &1272031794 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114000013448210984, guid: cf3f39c980574304d8f8817cd3dfa941,
+    type: 2}
+  m_PrefabInternal: {fileID: 1272031793}
+  m_Script: {fileID: 11500000, guid: 4bf1a3ead6c1aa341873bdfda4366001, type: 3}
+--- !u!1001 &1324771159
+Prefab:
+>>>>>>> Bow_Original
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 84494607}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 3}
       propertyPath: m_Name
       value: LeaderboardText (4)
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
         type: 3}
+=======
+    - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.z
       value: -0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.x
       value: 255
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.y
       value: -135
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.x
       value: 510
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.y
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -2589,97 +4092,189 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 0}
 --- !u!1001 &1370402718
 PrefabInstance:
+=======
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 2}
+      propertyPath: m_Name
+      value: LeaderboardText (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_IsPrefabParent: 0
+--- !u!1001 &1370402718
+Prefab:
+>>>>>>> Bow_Original
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 256575327}
     m_Modifications:
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.x
       value: 255
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.y
       value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.x
       value: 510
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.y
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
@@ -2692,6 +4287,28 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1564930575}
   m_PrefabAsset: {fileID: 0}
+=======
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_IsPrefabParent: 0
+--- !u!224 &1402262128
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1564930575}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 420466412}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.000030517578}
@@ -2706,117 +4323,203 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1438428034
+<<<<<<< HEAD
 PrefabInstance:
+=======
+Prefab:
+>>>>>>> Bow_Original
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 84494607}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 3}
       propertyPath: m_Name
       value: LeaderboardText (5)
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
         type: 3}
+=======
+    - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.z
       value: -0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.x
       value: 255
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.y
       value: -165
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.x
       value: 510
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.y
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -2829,6 +4532,32 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1505289339}
   m_PrefabAsset: {fileID: 0}
+=======
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 2}
+      propertyPath: m_Name
+      value: LeaderboardText (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_IsPrefabParent: 0
+--- !u!224 &1467797170
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1505289339}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 228960775}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.000030517578}
@@ -2845,10 +4574,16 @@ RectTransform:
 --- !u!1 &1489875407
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 463059772}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 463059772}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 2002932035}
   - component: {fileID: 1489875410}
@@ -2864,6 +4599,7 @@ GameObject:
 --- !u!114 &1489875408
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 463059772}
   m_PrefabAsset: {fileID: 0}
@@ -2871,6 +4607,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 463059772}
+  m_GameObject: {fileID: 1489875407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
@@ -2880,6 +4624,7 @@ MonoBehaviour:
   m_PreferredHeight: 30
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
+<<<<<<< HEAD
   m_LayoutPriority: 1
 --- !u!114 &1489875409
 MonoBehaviour:
@@ -2891,15 +4636,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+--- !u!114 &1489875409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 463059772}
+  m_GameObject: {fileID: 1489875407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.8301217, g: 0.8161765, b: 1, a: 1}
   m_RaycastTarget: 0
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
@@ -2917,6 +4681,7 @@ MonoBehaviour:
 --- !u!222 &1489875410
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 463059772}
   m_PrefabAsset: {fileID: 0}
@@ -2924,116 +4689,205 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 --- !u!1001 &1505289339
 PrefabInstance:
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 463059772}
+  m_GameObject: {fileID: 1489875407}
+--- !u!1001 &1505289339
+Prefab:
+>>>>>>> Bow_Original
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 256575327}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 3}
       propertyPath: m_Name
       value: LeaderboardText (2)
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
         type: 3}
+=======
+    - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.z
       value: -0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.x
       value: 255
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.y
       value: -75
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.x
       value: 510
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.y
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -3042,116 +4896,221 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 0}
 --- !u!1001 &1564930575
 PrefabInstance:
+=======
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 2}
+      propertyPath: m_Name
+      value: LeaderboardText (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_IsPrefabParent: 0
+--- !u!1001 &1564930575
+Prefab:
+>>>>>>> Bow_Original
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 84494607}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 3}
       propertyPath: m_Name
       value: LeaderboardText (2)
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
         type: 3}
+=======
+    - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.z
       value: -0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.x
       value: 255
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.y
       value: -75
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.x
       value: 510
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.y
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -3164,6 +5123,32 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1838588574}
   m_PrefabAsset: {fileID: 0}
+=======
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 2}
+      propertyPath: m_Name
+      value: LeaderboardText (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_IsPrefabParent: 0
+--- !u!224 &1582027484
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1838588574}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 2132794490}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.0000076293945}
@@ -3180,10 +5165,16 @@ RectTransform:
 --- !u!1 &1587871436
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 317517206}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 317517206}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 385258232}
   - component: {fileID: 1587871439}
@@ -3199,6 +5190,7 @@ GameObject:
 --- !u!114 &1587871437
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 317517206}
   m_PrefabAsset: {fileID: 0}
@@ -3206,6 +5198,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 317517206}
+  m_GameObject: {fileID: 1587871436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
@@ -3215,6 +5215,7 @@ MonoBehaviour:
   m_PreferredHeight: 30
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
+<<<<<<< HEAD
   m_LayoutPriority: 1
 --- !u!114 &1587871438
 MonoBehaviour:
@@ -3226,15 +5227,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+--- !u!114 &1587871438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 317517206}
+  m_GameObject: {fileID: 1587871436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.8301217, g: 0.8161765, b: 1, a: 1}
   m_RaycastTarget: 0
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
@@ -3252,6 +5272,7 @@ MonoBehaviour:
 --- !u!222 &1587871439
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 317517206}
   m_PrefabAsset: {fileID: 0}
@@ -3264,6 +5285,17 @@ GameObject:
   m_PrefabInstance: {fileID: 739111300}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 317517206}
+  m_GameObject: {fileID: 1587871436}
+--- !u!1 &1592952455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 739111300}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 931517370}
   - component: {fileID: 1592952458}
@@ -3279,6 +5311,7 @@ GameObject:
 --- !u!114 &1592952456
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 739111300}
   m_PrefabAsset: {fileID: 0}
@@ -3286,6 +5319,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 739111300}
+  m_GameObject: {fileID: 1592952455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
@@ -3295,6 +5336,7 @@ MonoBehaviour:
   m_PreferredHeight: 30
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
+<<<<<<< HEAD
   m_LayoutPriority: 1
 --- !u!114 &1592952457
 MonoBehaviour:
@@ -3306,15 +5348,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+--- !u!114 &1592952457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 739111300}
+  m_GameObject: {fileID: 1592952455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.8301217, g: 0.8161765, b: 1, a: 1}
   m_RaycastTarget: 0
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
@@ -3332,6 +5393,7 @@ MonoBehaviour:
 --- !u!222 &1592952458
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 739111300}
   m_PrefabAsset: {fileID: 0}
@@ -3344,6 +5406,17 @@ GameObject:
   m_PrefabInstance: {fileID: 1951872201}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 739111300}
+  m_GameObject: {fileID: 1592952455}
+--- !u!1 &1603235119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1951872201}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 2022423935}
   - component: {fileID: 1603235122}
@@ -3359,6 +5432,7 @@ GameObject:
 --- !u!114 &1603235120
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1951872201}
   m_PrefabAsset: {fileID: 0}
@@ -3366,6 +5440,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1951872201}
+  m_GameObject: {fileID: 1603235119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
@@ -3375,6 +5457,7 @@ MonoBehaviour:
   m_PreferredHeight: 30
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
+<<<<<<< HEAD
   m_LayoutPriority: 1
 --- !u!114 &1603235121
 MonoBehaviour:
@@ -3386,15 +5469,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+--- !u!114 &1603235121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1951872201}
+  m_GameObject: {fileID: 1603235119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.8301217, g: 0.8161765, b: 1, a: 1}
   m_RaycastTarget: 0
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
@@ -3412,6 +5514,7 @@ MonoBehaviour:
 --- !u!222 &1603235122
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1951872201}
   m_PrefabAsset: {fileID: 0}
@@ -3423,6 +5526,16 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 279428260}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1951872201}
+  m_GameObject: {fileID: 1603235119}
+--- !u!224 &1619323934
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 279428260}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 211541101}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3439,6 +5552,7 @@ RectTransform:
 --- !u!1 &1759813901
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3446,6 +5560,15 @@ GameObject:
   m_Component:
   - component: {fileID: 1759813906}
   - component: {fileID: 1759813905}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1759813906}
+  - component: {fileID: 1759813905}
+  - component: {fileID: 1759813904}
+>>>>>>> Bow_Original
   - component: {fileID: 1759813903}
   - component: {fileID: 1759813902}
   - component: {fileID: 1759813907}
@@ -3460,36 +5583,61 @@ GameObject:
 --- !u!81 &1759813902
 AudioListener:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1759813901}
   m_Enabled: 1
 --- !u!124 &1759813903
 Behaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1759813901}
+  m_Enabled: 1
+--- !u!92 &1759813904
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1759813901}
   m_Enabled: 1
 --- !u!20 &1759813905
 Camera:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1759813901}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
   m_FocalLength: 50
+=======
+>>>>>>> Bow_Original
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -3511,17 +5659,29 @@ Camera:
   m_TargetEye: 3
   m_HDR: 0
   m_AllowMSAA: 1
+<<<<<<< HEAD
   m_AllowDynamicResolution: 0
+=======
+>>>>>>> Bow_Original
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+<<<<<<< HEAD
 --- !u!4 &1759813906
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_StereoMirrorMode: 0
+--- !u!4 &1759813906
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1759813901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3533,9 +5693,14 @@ Transform:
 --- !u!114 &1759813907
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1759813901}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -3545,9 +5710,14 @@ MonoBehaviour:
 --- !u!114 &1759813908
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1759813901}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -3558,10 +5728,16 @@ MonoBehaviour:
 --- !u!1 &1769290385
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 1769290389}
   - component: {fileID: 1769290388}
@@ -3577,6 +5753,7 @@ GameObject:
 --- !u!114 &1769290386
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3584,6 +5761,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1769290385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
@@ -3594,6 +5779,7 @@ MonoBehaviour:
 --- !u!114 &1769290387
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3601,6 +5787,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1769290385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
@@ -3616,9 +5810,14 @@ MonoBehaviour:
 --- !u!223 &1769290388
 Canvas:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1769290385}
   m_Enabled: 1
   serializedVersion: 3
@@ -3637,9 +5836,14 @@ Canvas:
 --- !u!224 &1769290389
 RectTransform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1769290385}
   m_LocalRotation: {x: -0, y: -0.153605, z: -0, w: 0.9881324}
   m_LocalPosition: {x: 0, y: 0, z: -2.74}
@@ -3663,10 +5867,16 @@ RectTransform:
 --- !u!1 &1774489265
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 1774489266}
   - component: {fileID: 1774489268}
@@ -3681,9 +5891,14 @@ GameObject:
 --- !u!224 &1774489266
 RectTransform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1774489265}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3700,6 +5915,7 @@ RectTransform:
 --- !u!114 &1774489267
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3707,15 +5923,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1774489265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.65922916, b: 0.29411763, a: 1}
   m_RaycastTarget: 1
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 20
@@ -3733,6 +5965,7 @@ MonoBehaviour:
 --- !u!222 &1774489268
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3745,6 +5978,17 @@ GameObject:
   m_PrefabInstance: {fileID: 1324771159}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1774489265}
+--- !u!1 &1806899340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1324771159}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 35101900}
   - component: {fileID: 1806899343}
@@ -3760,6 +6004,7 @@ GameObject:
 --- !u!114 &1806899341
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1324771159}
   m_PrefabAsset: {fileID: 0}
@@ -3767,6 +6012,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1324771159}
+  m_GameObject: {fileID: 1806899340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
@@ -3776,6 +6029,7 @@ MonoBehaviour:
   m_PreferredHeight: 30
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
+<<<<<<< HEAD
   m_LayoutPriority: 1
 --- !u!114 &1806899342
 MonoBehaviour:
@@ -3787,15 +6041,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+--- !u!114 &1806899342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1324771159}
+  m_GameObject: {fileID: 1806899340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.8301217, g: 0.8161765, b: 1, a: 1}
   m_RaycastTarget: 0
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
@@ -3813,6 +6086,7 @@ MonoBehaviour:
 --- !u!222 &1806899343
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1324771159}
   m_PrefabAsset: {fileID: 0}
@@ -3820,116 +6094,205 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 --- !u!1001 &1838588574
 PrefabInstance:
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1324771159}
+  m_GameObject: {fileID: 1806899340}
+--- !u!1001 &1838588574
+Prefab:
+>>>>>>> Bow_Original
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 84494607}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 3}
       propertyPath: m_Name
       value: LeaderboardText (1)
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
         type: 3}
+=======
+    - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.z
       value: -0.0000076293945
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.x
       value: 255
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.y
       value: -45
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.x
       value: 510
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.y
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -3943,6 +6306,33 @@ GameObject:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 2}
+      propertyPath: m_Name
+      value: LeaderboardText (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_IsPrefabParent: 0
+--- !u!1 &1838826039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 1838826040}
   - component: {fileID: 1838826044}
@@ -3959,9 +6349,14 @@ GameObject:
 --- !u!224 &1838826040
 RectTransform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1838826039}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.0000051593966}
@@ -3979,9 +6374,14 @@ RectTransform:
 --- !u!65 &1838826041
 BoxCollider:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1838826039}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -3992,6 +6392,7 @@ BoxCollider:
 --- !u!114 &1838826042
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3999,6 +6400,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1838826039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -4012,20 +6421,29 @@ MonoBehaviour:
     m_NormalColor: {r: 0.88235295, g: 0.936714, b: 1, a: 1}
     m_HighlightedColor: {r: 0.7425389, g: 0.74380744, b: 0.9264706, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+<<<<<<< HEAD
     m_SelectedColor: {r: 0.7425389, g: 0.74380744, b: 0.9264706, a: 1}
+=======
+>>>>>>> Bow_Original
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+<<<<<<< HEAD
     m_SelectedSprite: {fileID: 0}
+=======
+>>>>>>> Bow_Original
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+<<<<<<< HEAD
     m_SelectedTrigger: Highlighted
+=======
+>>>>>>> Bow_Original
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1838826043}
@@ -4043,6 +6461,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+<<<<<<< HEAD
 --- !u!114 &1838826043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4053,15 +6472,36 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+=======
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1838826043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1838826039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -4070,6 +6510,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1838826044
@@ -4086,6 +6527,19 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1186051543}
   m_PrefabAsset: {fileID: 0}
+=======
+--- !u!222 &1838826044
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1838826039}
+--- !u!224 &1881550245
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1186051543}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 971851768}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.000030517578}
@@ -4102,10 +6556,16 @@ RectTransform:
 --- !u!1 &1895556202
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 1895556203}
   - component: {fileID: 1895556205}
@@ -4120,9 +6580,14 @@ GameObject:
 --- !u!224 &1895556203
 RectTransform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1895556202}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -65}
@@ -4139,6 +6604,7 @@ RectTransform:
 --- !u!114 &1895556204
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4146,15 +6612,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1895556202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.39484212, g: 0.8014706, b: 0.48177645, a: 1}
   m_RaycastTarget: 1
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 40
@@ -4172,6 +6654,7 @@ MonoBehaviour:
 --- !u!222 &1895556205
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4179,116 +6662,205 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 --- !u!1001 &1951872201
 PrefabInstance:
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1895556202}
+--- !u!1001 &1951872201
+Prefab:
+>>>>>>> Bow_Original
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 256575327}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 3}
       propertyPath: m_Name
       value: LeaderboardText (3)
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
         type: 3}
+=======
+    - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalPosition.z
       value: -0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.x
       value: 255
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchoredPosition.y
       value: -105
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.x
       value: 510
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_SizeDelta.y
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMin.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
+=======
+        type: 2}
+>>>>>>> Bow_Original
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000013400680178, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -4301,6 +6873,32 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 463059772}
   m_PrefabAsset: {fileID: 0}
+=======
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a, type: 2}
+      propertyPath: m_Name
+      value: LeaderboardText (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_IsPrefabParent: 0
+--- !u!224 &2002932035
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 463059772}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1489875407}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.000030517578}
@@ -4317,10 +6915,16 @@ RectTransform:
 --- !u!1 &2015173538
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 2015173539}
   - component: {fileID: 2015173541}
@@ -4335,9 +6939,14 @@ GameObject:
 --- !u!224 &2015173539
 RectTransform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 2015173538}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -4354,6 +6963,7 @@ RectTransform:
 --- !u!114 &2015173540
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4361,15 +6971,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2015173538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 40
@@ -4387,6 +7013,7 @@ MonoBehaviour:
 --- !u!222 &2015173541
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4398,6 +7025,16 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1951872201}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2015173538}
+--- !u!224 &2022423935
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1951872201}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 1603235119}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.000030517578}
@@ -4414,10 +7051,16 @@ RectTransform:
 --- !u!1 &2052439632
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 2052439634}
   - component: {fileID: 2052439633}
@@ -4431,9 +7074,14 @@ GameObject:
 --- !u!114 &2052439633
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 2052439632}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -4455,6 +7103,7 @@ MonoBehaviour:
   m_mostWinsLeaderboard: {fileID: 256575326}
   m_highestScoresLeaderboard: {fileID: 84494606}
   m_leaderboardEntryPrefab: {fileID: 1000012172119028, guid: 09fc1e67c860e68488d20df60c04cb2a,
+<<<<<<< HEAD
     type: 3}
   m_flytext: {fileID: 1000011449472940, guid: bb4775eb616604e329b92c1b4dfbaa5f, type: 3}
 --- !u!4 &2052439634
@@ -4463,6 +7112,15 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+    type: 2}
+  m_flytext: {fileID: 1000011449472940, guid: bb4775eb616604e329b92c1b4dfbaa5f, type: 2}
+--- !u!4 &2052439634
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 2052439632}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -4474,10 +7132,16 @@ Transform:
 --- !u!1 &2072231048
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 2072231049}
   - component: {fileID: 2072231051}
@@ -4492,9 +7156,14 @@ GameObject:
 --- !u!224 &2072231049
 RectTransform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 2072231048}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -4511,6 +7180,7 @@ RectTransform:
 --- !u!114 &2072231050
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4518,15 +7188,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2072231048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 40
@@ -4544,6 +7230,7 @@ MonoBehaviour:
 --- !u!222 &2072231051
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4556,6 +7243,17 @@ GameObject:
   m_PrefabInstance: {fileID: 1838588574}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2072231048}
+--- !u!1 &2132794490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1838588574}
+  serializedVersion: 5
+>>>>>>> Bow_Original
   m_Component:
   - component: {fileID: 1582027484}
   - component: {fileID: 2132794493}
@@ -4571,6 +7269,7 @@ GameObject:
 --- !u!114 &2132794491
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1838588574}
   m_PrefabAsset: {fileID: 0}
@@ -4578,6 +7277,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1838588574}
+  m_GameObject: {fileID: 2132794490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
@@ -4587,6 +7294,7 @@ MonoBehaviour:
   m_PreferredHeight: 30
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
+<<<<<<< HEAD
   m_LayoutPriority: 1
 --- !u!114 &2132794492
 MonoBehaviour:
@@ -4598,15 +7306,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+=======
+--- !u!114 &2132794492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1838588574}
+  m_GameObject: {fileID: 2132794490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+>>>>>>> Bow_Original
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.8301217, g: 0.8161765, b: 1, a: 1}
   m_RaycastTarget: 0
+<<<<<<< HEAD
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+>>>>>>> Bow_Original
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
@@ -4624,6 +7351,7 @@ MonoBehaviour:
 --- !u!222 &2132794493
 CanvasRenderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1838588574}
   m_PrefabAsset: {fileID: 0}
@@ -4635,6 +7363,16 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1370402718}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1838588574}
+  m_GameObject: {fileID: 2132794490}
+--- !u!224 &2137523811
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1370402718}
+>>>>>>> Bow_Original
   m_GameObject: {fileID: 338205985}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}

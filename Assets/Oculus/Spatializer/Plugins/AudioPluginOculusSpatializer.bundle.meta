@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 6393328ad67559a48ac18f7fac4f414b
 folderAsset: yes
 timeCreated: 1605756819
+=======
+guid: e4589cfab5e99c243a4b53656c7d945f
+folderAsset: yes
+timeCreated: 1601622433
+>>>>>>> Bow_Original
 licenseType: Store
 PluginImporter:
   serializedVersion: 2

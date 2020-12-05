@@ -1,8 +1,15 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: ca89f433d7cd6de4885bb0969991325f
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0
+=======
+guid: a8957d2acacaa0e4c8d6cbbf06bfc3d6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+>>>>>>> Bow_Original
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,5 +1,38 @@
 {
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.2d.tilemap": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.ads": {
+      "version": "3.4.9",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.analytics": {
+      "version": "3.3.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+>>>>>>> Bow_Original
     "com.unity.collab-proxy": {
       "version": "1.2.16",
       "depth": 0,
@@ -8,7 +41,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
+<<<<<<< HEAD
       "version": "1.0.5",
+=======
+      "version": "1.0.0",
+>>>>>>> Bow_Original
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -24,12 +61,17 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
+<<<<<<< HEAD
       "version": "1.2.3",
+=======
+      "version": "1.2.1",
+>>>>>>> Bow_Original
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
     "com.unity.mobile.android-logcat": {
       "version": "1.2.0",
       "depth": 0,
@@ -43,13 +85,43 @@
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.5",
+=======
+    "com.unity.multiplayer-hlapi": {
+      "version": "1.0.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.purchasing": {
+      "version": "2.1.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.test-framework": {
+      "version": "1.1.16",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0",
+>>>>>>> Bow_Original
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
+<<<<<<< HEAD
       "version": "2.1.1",
+=======
+      "version": "2.0.1",
+>>>>>>> Bow_Original
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -58,7 +130,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
+<<<<<<< HEAD
       "version": "1.2.17",
+=======
+      "version": "1.2.6",
+>>>>>>> Bow_Original
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -73,8 +149,13 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+<<<<<<< HEAD
     "com.unity.xr.oculus.android": {
       "version": "2.38.6",
+=======
+    "com.unity.xr.legacyinputhelpers": {
+      "version": "2.1.4",
+>>>>>>> Bow_Original
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -87,9 +168,15 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
     "com.unity.xr.openvr.standalone": {
       "version": "2.0.5",
       "depth": 0,
+=======
+    "nuget.mono-cecil": {
+      "version": "0.1.6-preview",
+      "depth": 1,
+>>>>>>> Bow_Original
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"

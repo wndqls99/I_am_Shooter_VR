@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - Button
+=======
+  - Hand
+>>>>>>> Bow_Original
   layers:
   - Default
   - TransparentFX
@@ -14,7 +18,11 @@ TagManager:
   - UI
   - 
   - 
+<<<<<<< HEAD
   - 
+=======
+  - PostProcessing
+>>>>>>> Bow_Original
   - 
   - 
   - 
