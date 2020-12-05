@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class IntroButton : MonoBehaviour
 {
+    [SerializeField] GameObject soundManager;
     public void StartBtn()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Stage");
+        DontDestroyOnLoad(soundManager);
     }
     public void ExitBtn()
     {
