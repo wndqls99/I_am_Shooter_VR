@@ -3,13 +3,8 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD
   serializedVersion: 20
   productGUID: bbe187ddd80cbf242a9135b33621e108
-=======
-  serializedVersion: 15
-  productGUID: 7ee774052bbc5c74d8d3ee5ab0bc8b4d
->>>>>>> Bow_Original
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -18,11 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-<<<<<<< HEAD
   productName: ImShooter
-=======
-  productName: BowAndArrow_Unity
->>>>>>> Bow_Original
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -61,12 +52,7 @@ PlayerSettings:
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
   iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: -1
-<<<<<<< HEAD
   iosUseCustomAppBackgroundBehavior: 0
-=======
-  iosAppInBackgroundBehavior: 0
-  displayResolutionDialog: 2
->>>>>>> Bow_Original
   iosAllowHTTPDownload: 1
   allowedAutorotateToPortrait: 1
   allowedAutorotateToPortraitUpsideDown: 1
@@ -77,12 +63,8 @@ PlayerSettings:
   preserveFramebufferAlpha: 0
   disableDepthAndStencilBuffers: 0
   androidStartInFullscreen: 1
-<<<<<<< HEAD
   androidRenderOutsideSafeArea: 1
   androidUseSwappy: 0
-=======
-  androidRenderOutsideSafeArea: 0
->>>>>>> Bow_Original
   androidBlitType: 0
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
@@ -97,19 +79,11 @@ PlayerSettings:
   usePlayerLog: 1
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
-<<<<<<< HEAD
   useFlipModelSwapchain: 1
   resizableWindow: 0
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
   gpuSkinning: 1
-=======
-  resizableWindow: 1
-  useMacAppStoreValidation: 0
-  macAppStoreCategory: public.app-category.games
-  gpuSkinning: 1
-  graphicsJobs: 0
->>>>>>> Bow_Original
   xboxPIXTextureCapture: 0
   xboxEnableAvatar: 0
   xboxEnableKinect: 0
@@ -117,10 +91,6 @@ PlayerSettings:
   xboxEnableFitness: 0
   visibleInBackground: 1
   allowFullscreenSwitch: 1
-<<<<<<< HEAD
-=======
-  graphicsJobMode: 0
->>>>>>> Bow_Original
   fullscreenMode: 1
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
@@ -133,20 +103,14 @@ PlayerSettings:
   xboxOneMonoLoggingLevel: 0
   xboxOneLoggingLevel: 1
   xboxOneDisableEsram: 0
-<<<<<<< HEAD
   xboxOneEnableTypeOptimization: 0
   xboxOnePresentImmediateThreshold: 0
   switchQueueCommandMemory: 0
-=======
-  xboxOnePresentImmediateThreshold: 0
-  switchQueueCommandMemory: 1048576
->>>>>>> Bow_Original
   switchQueueControlMemory: 16384
   switchQueueComputeMemory: 262144
   switchNVNShaderPoolsGranularity: 33554432
   switchNVNDefaultPoolsGranularity: 16777216
   switchNVNOtherPoolsGranularity: 16777216
-<<<<<<< HEAD
   switchNVNMaxPublicTextureIDCount: 0
   switchNVNMaxPublicSamplerIDCount: 0
   stadiaPresentMode: 0
@@ -154,9 +118,6 @@ PlayerSettings:
   vulkanNumSwapchainBuffers: 3
   vulkanEnableSetSRGBWrite: 0
   vulkanEnableLateAcquireNextImage: 0
-=======
-  vulkanEnableSetSRGBWrite: 0
->>>>>>> Bow_Original
   m_SupportedAspectRatios:
     4:3: 1
     5:4: 1
@@ -168,14 +129,8 @@ PlayerSettings:
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
-<<<<<<< HEAD
   xboxOneDisableKinectGpuReservation: 1
   xboxOneEnable7thCore: 1
-=======
-  xboxOneDisableKinectGpuReservation: 0
-  xboxOneEnable7thCore: 0
-  isWsaHolographicRemotingEnabled: 0
->>>>>>> Bow_Original
   vrSettings:
     cardboard:
       depthFormat: 0
@@ -189,7 +144,6 @@ PlayerSettings:
       maximumSupportedHeadTracking: 1
     hololens:
       depthFormat: 1
-<<<<<<< HEAD
       depthBufferSharingEnabled: 1
     lumin:
       depthFormat: 0
@@ -208,28 +162,12 @@ PlayerSettings:
   enableFrameTimingStats: 0
   useHDRDisplay: 0
   D3DHDRBitDepth: 0
-=======
-      depthBufferSharingEnabled: 0
-    oculus:
-      sharedDepthBuffer: 1
-      dashSupport: 1
-    enable360StereoCapture: 0
-  protectGraphicsMemory: 0
-  enableFrameTimingStats: 0
-  useHDRDisplay: 0
->>>>>>> Bow_Original
   m_ColorGamuts: 00000000
   targetPixelDensity: 30
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-<<<<<<< HEAD
   applicationIdentifier: {}
-=======
-  applicationIdentifier:
-    Android: com.oculus.UnitySample
-    Standalone: com.oculus.UnitySample
->>>>>>> Bow_Original
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
@@ -247,38 +185,16 @@ PlayerSettings:
   StripUnusedMeshComponents: 1
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
-<<<<<<< HEAD
   iOSTargetOSVersionString: 10.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 10.0
-=======
-  iOSTargetOSVersionString: 9.0
-  tvOSSdkVersion: 0
-  tvOSRequireExtendedGameController: 0
-  tvOSTargetOSVersionString: 9.0
->>>>>>> Bow_Original
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIRequiresFullScreen: 1
   uIStatusBarHidden: 1
   uIExitOnSuspend: 0
   uIStatusBarStyle: 0
-<<<<<<< HEAD
-=======
-  iPhoneSplashScreen: {fileID: 0}
-  iPhoneHighResSplashScreen: {fileID: 0}
-  iPhoneTallHighResSplashScreen: {fileID: 0}
-  iPhone47inSplashScreen: {fileID: 0}
-  iPhone55inPortraitSplashScreen: {fileID: 0}
-  iPhone55inLandscapeSplashScreen: {fileID: 0}
-  iPhone58inPortraitSplashScreen: {fileID: 0}
-  iPhone58inLandscapeSplashScreen: {fileID: 0}
-  iPadPortraitSplashScreen: {fileID: 0}
-  iPadHighResPortraitSplashScreen: {fileID: 0}
-  iPadLandscapeSplashScreen: {fileID: 0}
-  iPadHighResLandscapeSplashScreen: {fileID: 0}
->>>>>>> Bow_Original
   appleTVSplashScreen: {fileID: 0}
   appleTVSplashScreen2x: {fileID: 0}
   tvOSSmallIconLayers: []
@@ -322,49 +238,30 @@ PlayerSettings:
   tvOSManualSigningProvisioningProfileType: 0
   appleEnableAutomaticSigning: 0
   iOSRequireARKit: 0
-<<<<<<< HEAD
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   clonedFromGUID: c0afd0d1d80e3634a9dac47e8a0426ea
   templatePackageId: com.unity.template.3d@4.2.8
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   AndroidTargetArchitectures: 1
-=======
-  appleEnableProMotion: 0
-  clonedFromGUID: c0afd0d1d80e3634a9dac47e8a0426ea
-  templatePackageId: com.unity.template.3d@1.0.4
-  templateDefaultScene: Assets/Scenes/SampleScene.unity
-  AndroidTargetArchitectures: 5
->>>>>>> Bow_Original
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
   AndroidBuildApkPerCpuArchitecture: 0
-<<<<<<< HEAD
   AndroidTVCompatibility: 0
-=======
-  AndroidTVCompatibility: 1
->>>>>>> Bow_Original
   AndroidIsGame: 1
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
-<<<<<<< HEAD
   androidUseCustomKeystore: 0
-=======
->>>>>>> Bow_Original
   m_AndroidBanners:
   - width: 320
     height: 180
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
-<<<<<<< HEAD
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
-=======
-  resolutionDialogBanner: {fileID: 0}
->>>>>>> Bow_Original
   m_BuildTargetIcons: []
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: Android
@@ -402,110 +299,62 @@ PlayerSettings:
     - m_Textures: []
       m_Width: 192
       m_Height: 192
-<<<<<<< HEAD
       m_Kind: 1
-=======
-      m_Kind: 0
->>>>>>> Bow_Original
       m_SubKind: 
     - m_Textures: []
       m_Width: 144
       m_Height: 144
-<<<<<<< HEAD
       m_Kind: 1
-=======
-      m_Kind: 0
->>>>>>> Bow_Original
       m_SubKind: 
     - m_Textures: []
       m_Width: 96
       m_Height: 96
-<<<<<<< HEAD
       m_Kind: 1
-=======
-      m_Kind: 0
->>>>>>> Bow_Original
       m_SubKind: 
     - m_Textures: []
       m_Width: 72
       m_Height: 72
-<<<<<<< HEAD
       m_Kind: 1
-=======
-      m_Kind: 0
->>>>>>> Bow_Original
       m_SubKind: 
     - m_Textures: []
       m_Width: 48
       m_Height: 48
-<<<<<<< HEAD
       m_Kind: 1
-=======
-      m_Kind: 0
->>>>>>> Bow_Original
       m_SubKind: 
     - m_Textures: []
       m_Width: 36
       m_Height: 36
-<<<<<<< HEAD
       m_Kind: 1
-=======
-      m_Kind: 0
->>>>>>> Bow_Original
       m_SubKind: 
     - m_Textures: []
       m_Width: 192
       m_Height: 192
-<<<<<<< HEAD
       m_Kind: 0
-=======
-      m_Kind: 1
->>>>>>> Bow_Original
       m_SubKind: 
     - m_Textures: []
       m_Width: 144
       m_Height: 144
-<<<<<<< HEAD
       m_Kind: 0
-=======
-      m_Kind: 1
->>>>>>> Bow_Original
       m_SubKind: 
     - m_Textures: []
       m_Width: 96
       m_Height: 96
-<<<<<<< HEAD
       m_Kind: 0
-=======
-      m_Kind: 1
->>>>>>> Bow_Original
       m_SubKind: 
     - m_Textures: []
       m_Width: 72
       m_Height: 72
-<<<<<<< HEAD
       m_Kind: 0
-=======
-      m_Kind: 1
->>>>>>> Bow_Original
       m_SubKind: 
     - m_Textures: []
       m_Width: 48
       m_Height: 48
-<<<<<<< HEAD
       m_Kind: 0
-=======
-      m_Kind: 1
->>>>>>> Bow_Original
       m_SubKind: 
     - m_Textures: []
       m_Width: 36
       m_Height: 36
-<<<<<<< HEAD
       m_Kind: 0
-=======
-      m_Kind: 1
->>>>>>> Bow_Original
       m_SubKind: 
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
@@ -523,7 +372,6 @@ PlayerSettings:
   - m_BuildTarget: WebGL
     m_StaticBatching: 0
     m_DynamicBatching: 0
-<<<<<<< HEAD
   m_BuildTargetGraphicsJobs:
   - m_BuildTarget: MacStandaloneSupport
     m_GraphicsJobs: 0
@@ -560,12 +408,6 @@ PlayerSettings:
   - m_BuildTarget: AndroidPlayer
     m_APIs: 0b000000
     m_Automatic: 0
-=======
-  m_BuildTargetGraphicsAPIs:
-  - m_BuildTarget: AndroidPlayer
-    m_APIs: 0b00000008000000
-    m_Automatic: 1
->>>>>>> Bow_Original
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
     m_Automatic: 1
@@ -580,23 +422,14 @@ PlayerSettings:
     m_Enabled: 1
     m_Devices:
     - Oculus
-<<<<<<< HEAD
     - OpenVR
-=======
->>>>>>> Bow_Original
   - m_BuildTarget: Android
     m_Enabled: 1
     m_Devices:
     - Oculus
-<<<<<<< HEAD
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
-=======
-  m_BuildTargetEnableVuforiaSettings: []
-  openGLRequireES31: 0
-  openGLRequireES31AEP: 0
->>>>>>> Bow_Original
   m_TemplateCustomTags: {}
   mobileMTRendering:
     Android: 1
@@ -712,10 +545,7 @@ PlayerSettings:
   switchRatingsInt_9: 0
   switchRatingsInt_10: 0
   switchRatingsInt_11: 0
-<<<<<<< HEAD
   switchRatingsInt_12: 0
-=======
->>>>>>> Bow_Original
   switchLocalCommunicationIds_0: 
   switchLocalCommunicationIds_1: 
   switchLocalCommunicationIds_2: 
@@ -731,11 +561,7 @@ PlayerSettings:
   switchDataLossConfirmation: 0
   switchUserAccountLockEnabled: 0
   switchSystemResourceMemory: 16777216
-<<<<<<< HEAD
   switchSupportedNpadStyles: 22
-=======
-  switchSupportedNpadStyles: 3
->>>>>>> Bow_Original
   switchNativeFsCacheSize: 32
   switchIsHoldTypeHorizontal: 0
   switchSupportedNpadCount: 8
@@ -776,10 +602,7 @@ PlayerSettings:
   ps4ShareFilePath: 
   ps4ShareOverlayImagePath: 
   ps4PrivacyGuardImagePath: 
-<<<<<<< HEAD
   ps4ExtraSceSysFile: 
-=======
->>>>>>> Bow_Original
   ps4NPtitleDatPath: 
   ps4RemotePlayKeyAssignment: -1
   ps4RemotePlayKeyMappingDir: 
@@ -792,10 +615,7 @@ PlayerSettings:
   ps4DownloadDataSize: 0
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
-<<<<<<< HEAD
   playerPrefsMaxSize: 32768
-=======
->>>>>>> Bow_Original
   ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
   ps4pnSessions: 1
   ps4pnPresence: 1
@@ -808,10 +628,7 @@ PlayerSettings:
   ps4UseResolutionFallback: 0
   ps4ReprojectionSupport: 0
   ps4UseAudio3dBackend: 0
-<<<<<<< HEAD
   ps4UseLowGarlicFragmentationMode: 1
-=======
->>>>>>> Bow_Original
   ps4SocialScreenEnabled: 0
   ps4ScriptOptimizationLevel: 0
   ps4Audio3dVirtualSpeakerCount: 14
@@ -828,7 +645,6 @@ PlayerSettings:
   ps4disableAutoHideSplash: 0
   ps4videoRecordingFeaturesUsed: 0
   ps4contentSearchFeaturesUsed: 0
-<<<<<<< HEAD
   ps4CompatibilityPS5: 0
   ps4GPU800MHz: 1
   ps4attribEyeToEyeDistanceSettingVR: 0
@@ -840,15 +656,6 @@ PlayerSettings:
   blurSplashScreenBackground: 1
   spritePackerPolicy: 
   webGLMemorySize: 16
-=======
-  ps4attribEyeToEyeDistanceSettingVR: 0
-  ps4IncludedModules: []
-  monoEnv: 
-  splashScreenBackgroundSourceLandscape: {fileID: 0}
-  splashScreenBackgroundSourcePortrait: {fileID: 0}
-  spritePackerPolicy: 
-  webGLMemorySize: 256
->>>>>>> Bow_Original
   webGLExceptionSupport: 1
   webGLNameFilesAsHashes: 0
   webGLDataCaching: 1
@@ -861,10 +668,7 @@ PlayerSettings:
   webGLCompressionFormat: 1
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
-<<<<<<< HEAD
   webGLWasmStreaming: 0
-=======
->>>>>>> Bow_Original
   scriptingDefineSymbols: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -874,11 +678,8 @@ PlayerSettings:
   allowUnsafeCode: 0
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
-<<<<<<< HEAD
   gcIncremental: 0
   gcWBarrierValidation: 0
-=======
->>>>>>> Bow_Original
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
@@ -909,10 +710,6 @@ PlayerSettings:
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
-<<<<<<< HEAD
-=======
-  metroCompilationOverrides: 1
->>>>>>> Bow_Original
   XboxOneProductId: 
   XboxOneUpdateKey: 
   XboxOneSandboxId: 
@@ -931,23 +728,14 @@ PlayerSettings:
   XboxOneCapability: []
   XboxOneGameRating: {}
   XboxOneIsContentPackage: 0
-<<<<<<< HEAD
   XboxOneEnableGPUVariability: 1
-=======
-  XboxOneEnableGPUVariability: 0
->>>>>>> Bow_Original
   XboxOneSockets: {}
   XboxOneSplashScreen: {fileID: 0}
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   XboxOneXTitleMemory: 8
-<<<<<<< HEAD
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
-=======
-  xboxOneScriptCompiler: 0
-  XboxOneOverrideIdentityName: 
->>>>>>> Bow_Original
   vrEditorSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
@@ -960,35 +748,16 @@ PlayerSettings:
     m_PortalFolderPath: 
   luminCert:
     m_CertPath: 
-<<<<<<< HEAD
     m_SignPackage: 1
-=======
-    m_PrivateKeyPath: 
->>>>>>> Bow_Original
   luminIsChannelApp: 0
   luminVersion:
     m_VersionCode: 1
     m_VersionName: 
-<<<<<<< HEAD
   apiCompatibilityLevel: 6
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   projectName: 
   organizationId: 
-=======
-  facebookSdkVersion: 7.9.4
-  facebookAppId: 
-  facebookCookies: 1
-  facebookLogging: 1
-  facebookStatus: 1
-  facebookXfbml: 0
-  facebookFrictionlessRequests: 1
-  apiCompatibilityLevel: 6
-  cloudProjectId: 280a7fcb-7c7c-46a6-bb8a-7e4e3696f6d5
-  framebufferDepthMemorylessMode: 0
-  projectName: BowAndArrow_Unity (1)
-  organizationId: wndqls99
->>>>>>> Bow_Original
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

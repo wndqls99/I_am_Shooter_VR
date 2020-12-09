@@ -4,11 +4,7 @@
 UnityConnectSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 1
-<<<<<<< HEAD
   m_Enabled: 0
-=======
-  m_Enabled: 1
->>>>>>> Bow_Original
   m_TestMode: 0
   m_EventOldUrl: https://api.uca.cloud.unity3d.com/v1/events
   m_EventUrl: https://cdp.cloud.unity3d.com/v1/events
@@ -16,22 +12,14 @@ UnityConnectSettings:
   m_TestInitMode: 0
   CrashReportingSettings:
     m_EventUrl: https://perf-events.cloud.unity3d.com
-<<<<<<< HEAD
     m_Enabled: 0
-=======
-    m_Enabled: 1
->>>>>>> Bow_Original
     m_LogBufferSize: 10
     m_CaptureEditorExceptions: 1
   UnityPurchasingSettings:
     m_Enabled: 0
     m_TestMode: 0
   UnityAnalyticsSettings:
-<<<<<<< HEAD
     m_Enabled: 0
-=======
-    m_Enabled: 1
->>>>>>> Bow_Original
     m_TestMode: 0
     m_InitializeOnStartup: 1
   UnityAdsSettings:
@@ -40,14 +28,7 @@ UnityConnectSettings:
     m_TestMode: 0
     m_IosGameId: 
     m_AndroidGameId: 
-<<<<<<< HEAD
     m_GameIds: {}
-=======
-    m_GameIds:
-      AndroidPlayer: 
-      iPhonePlayer: 
-      tvOSPlayer: 
->>>>>>> Bow_Original
     m_GameId: 
   PerformanceReportingSettings:
     m_Enabled: 0

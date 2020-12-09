@@ -6,10 +6,7 @@ VFXManager:
   m_IndirectShader: {fileID: 0}
   m_CopyBufferShader: {fileID: 0}
   m_SortShader: {fileID: 0}
-<<<<<<< HEAD
   m_StripUpdateShader: {fileID: 0}
-=======
->>>>>>> Bow_Original
   m_RenderPipeSettingsPath: 
   m_FixedTimeStep: 0.016666668
   m_MaxDeltaTime: 0.05
