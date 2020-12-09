@@ -741,6 +741,8 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Build: 1
+    Collab: 1
     UNet: 1
   luminIcon:
     m_Name: 
@@ -754,10 +756,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 2bd751ae-ac97-480b-b56f-96b43ee09e1b
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: ImShooter
+  organizationId: wndqls99
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
