@@ -3,6 +3,7 @@
 public class Arrow : MonoBehaviour
 {
     public float m_Speed = 2000.0f; // 날아가는 속도 값
+    //public float m_Speed = 100.0f; // 날아가는 속도 값
     public Transform m_Tip = null; // 히트 감지를 위한 화살촉
 
     private Rigidbody m_Rigidbody = null; // 물리 제어를 위한 강체
@@ -46,6 +47,26 @@ public class Arrow : MonoBehaviour
 
         // Parent
         transform.parent = hitObject.transform; // 부모 위치를 충돌체 위치로 잡아준다.
+ 
+        var emptyObject = new GameObject("Hit_Temp_Object");
+        emptyObject.transform.parent = hitObject.transform;
+        gameObject.transform.parent = emptyObject.transform;
+
+        transform.localPosition = m_LastPosition;
+
+        print("이름"+hitObject.name);
+
+        /*
+        //Transform parent = transform.root;
+
+        //if(hitObject.name.Equals("Target")){
+        if(hitObject.CompareTag("Target")){
+            transform.parent = parent.transform;
+            transform.localScale = new Vector3(1, 1, 10);
+            transform.localRotation = Quaternion.Euler(1, 0, 0);
+            
+        }
+        */
 
         // Disable Physics
         m_Rigidbody.isKinematic = true; // 외부의 힘(물리력)이 가해지지 않게 한다.
@@ -53,8 +74,10 @@ public class Arrow : MonoBehaviour
 
         // Damage
         CheckForDamage(hitObject); // 충돌체에 대한 데미지 계산
-    }
 
+        if(transform.parent.gameObject.name.Equals("Hit_Temp_Object"))
+            Destroy(transform.parent.gameObject, 5.0f);
+    }
     private void CheckForDamage(GameObject hitObject) // 데미지 계산
     {
         MonoBehaviour[] behaviours = hitObject.GetComponents<MonoBehaviour>(); // 모든 충돌체에 대한 정보를 가져온다.
@@ -84,7 +107,7 @@ public class Arrow : MonoBehaviour
         // 물리적용(Physics)
         m_Rigidbody.isKinematic = false; // 외부의 힘(물리력)이 가해지게 한다.
         m_Rigidbody.useGravity = true; // 중력에 영향을 받게 한다.
-        m_Rigidbody.AddForce(transform.forward * (pullValue * m_Speed)); // 강체에 물리힘을 적용하여 이동하게끔한다 (윌드 좌표상 앞으로 보는 방향에 * (당기는 힘 * 속도))
+        m_Rigidbody.AddForce(transform.forward * (pullValue * m_Speed * 0.7f)); // 강체에 물리힘을 적용하여 이동하게끔한다 (윌드 좌표상 앞으로 보는 방향에 * (당기는 힘 * 속도))
 
         Destroy(gameObject, 5.0f); // 5초뒤에 삭제 ---> 아직 날아가고 있어도 삭제가 된다.
     }
