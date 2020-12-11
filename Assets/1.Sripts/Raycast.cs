@@ -34,11 +34,11 @@ public class Raycast : MonoBehaviour
             line.SetPosition(1, hitInfo.point);
 
 
-            if (hitInfo.collider.gameObject.CompareTag("Button"))
-            {
-                hitInfo.collider.gameObject.GetComponent<ButtonState>().SetButton(ButtonState.State.On);
-                temp = hitInfo.collider.gameObject;
-            }
+            //if (hitInfo.collider.gameObject.CompareTag("Button"))
+            //{
+                //hitInfo.collider.gameObject.GetComponent<ButtonState>().SetButton(ButtonState.State.On);
+                //temp = hitInfo.collider.gameObject;
+            //}
 
             if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))//오른손 검지 트리거
             {
@@ -48,7 +48,7 @@ public class Raycast : MonoBehaviour
                     SoundManager.instance.PlayBtnSound();
                     hitInfo.collider.gameObject.GetComponent<Button>().onClick.Invoke();
                     //temp = hitInfo.collider.gameObject;
-                    hitInfo.collider.gameObject.GetComponent<ButtonState>().SetButton(ButtonState.State.On);
+                    //hitInfo.collider.gameObject.GetComponent<ButtonState>().SetButton(ButtonState.State.On);
 
                 }
                 else
@@ -68,7 +68,7 @@ public class Raycast : MonoBehaviour
                 switch (temp.gameObject.tag)
                 {
                     case "Button":
-                        temp.GetComponent<ButtonState>().SetButton(ButtonState.State.Idle);
+                        //temp.GetComponent<ButtonState>().SetButton(ButtonState.State.Idle);
                         break;
                 }
                 temp = null;

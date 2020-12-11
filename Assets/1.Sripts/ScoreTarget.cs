@@ -10,7 +10,11 @@ public class ScoreTarget : MonoBehaviour
     {
         
     }
-
+    private void OnCollisionEnter(Collision other) {
+        if(other.gameObject.name.Contains("Arrow")){
+            print("화살 맞음");
+        }
+    }
     // Update is called once per frame
     void Update()
     {

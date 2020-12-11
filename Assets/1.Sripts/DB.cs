@@ -31,15 +31,26 @@ public class DB : MonoBehaviour
     }
     Stage stage = new Stage();
     // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void UpdateScore(int score){
+        try
+        {
+            dbconn = new SqliteConnection(temp_path);
+            dbconn.Open();
+            dbcommand = dbconn.CreateCommand();
+            sqlQuery = string.Empty;
+            sqlQuery = "UPDATE Stage SET Score = " + score.ToString() + " WHERE StageNum = 3";
+            dbcommand.CommandText = sqlQuery;
+            reader = dbcommand.ExecuteReader();
+        }
+        catch (Exception e)
+        {
+            print(e);
+        }
+        finally
+        {
+            reader.Close();
+            dbconn.Close();
+        }
     }
     public void LoadStage(){
         try

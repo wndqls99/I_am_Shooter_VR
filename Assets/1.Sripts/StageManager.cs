@@ -10,13 +10,15 @@ public class StageManager : MonoBehaviour
     private void Awake() {
         instane = this;
     }
-    int myStage = 0;
+    int myStage;
     public int MyStage{
         get{return myStage;}
         set{myStage = value;}
     }
     [SerializeField] TextMeshProUGUI stageTxt;
     [SerializeField] TextMeshProUGUI scoreTxt;
+    [SerializeField] GameObject soundManager;
+    [SerializeField] GameObject gameManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +48,23 @@ public class StageManager : MonoBehaviour
         }
     }
     public void ClickStart(){
-        SceneManager.LoadScene("Main");
+        // switch(myStage){
+        //     case 1 :
+        //         SceneManager.LoadScene("Main1");
+        //         DontDestroyOnLoad(soundManager);
+        //     break;
+        //     case 2 :
+        //         SceneManager.LoadScene("Main2");
+        //         DontDestroyOnLoad(soundManager);
+        //     break;
+        //     case 3 :
+        //         SceneManager.LoadScene("Main3");
+        //         DontDestroyOnLoad(soundManager);
+        //     break;
+        //     default:
+        //     break;
+        // }
+        SceneManager.LoadScene("Main3");
+        DontDestroyOnLoad(soundManager);
     }
 }

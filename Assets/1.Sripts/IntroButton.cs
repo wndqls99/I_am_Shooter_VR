@@ -8,7 +8,7 @@ public class IntroButton : MonoBehaviour
     [SerializeField] GameObject soundManager;
     public void StartBtn()
     {
-        SceneManager.LoadScene("Stage");
+        SceneManager.LoadScene("Main");
         DontDestroyOnLoad(soundManager);
     }
     public void ExitBtn()

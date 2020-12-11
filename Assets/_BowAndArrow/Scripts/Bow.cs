@@ -54,7 +54,7 @@ public class Bow : MonoBehaviour
     {
         // Wait
         yield return new WaitForSeconds(waitTime); // yield(양보) -> update에서 1초가 지났는지 확인후 MoveNext를 호출한다.(다음 프레임까지 대기) 그러면 코드의 다음 부분이 실행된다.
-        while(ArrowManager.instance.Arrow > 0){
+        if(ArrowManager.instance.Arrow > 0){
             // Create, child
             GameObject arrowObject = Instantiate(m_ArrowPrefab, m_Socket); // Instantiate을 통해 Prefab에 있는 화살을 m_Socket위치에 생성 -> 이후 arrowObject에 인스턴트화
 
@@ -64,6 +64,9 @@ public class Bow : MonoBehaviour
 
             // Set
             m_CurrentArrow = arrowObject.GetComponent<Arrow>(); // 이렇게 생성한 화살을 현제화살에 담아준다.
+            
+        }else{
+            print("들어옴?");
         }
         
     }
@@ -81,20 +84,27 @@ public class Bow : MonoBehaviour
     public void Release() // 놓기
     {
         if (m_PullValue > 0.25f) // 당기는 값(거리)이(가) 0.25f보다 크면 
-            FireArrow(); // 화살을 쏜다.
+        FireArrow(); // 화살을 쏜다.
 
         m_PullingHand = null; // 당기고 있는 손 초기화
 
         m_PullValue = 0.0f; // 당기는 값 초기화
         m_Animator.SetFloat("Blend", 0); // 당기는 애니메이션도 0으로 초기화 하여 당기지 않는 모션으로 만들어줌.
 
-        if (!m_CurrentArrow) // 활을 충분히 당겨서 화살을 쏘지 않은경우가 있을수 있으니 '완전히 화살이 활에 없는경우'
-            StartCoroutine(CreateArrow(0.25f)); // 처음에만 0초로 하였고 이제 0.25초 마다 화살을 생성해서 날릴수 있게 코루틴 설정.
+        if (!m_CurrentArrow) {// 활을 충분히 당겨서 화살을 쏘지 않은경우가 있을수 있으니 '완전히 화살이 활에 없는경우'
+            if(ArrowManager.instance.Arrow > 0){
+                StartCoroutine(CreateArrow(0.25f)); // 처음에만 0초로 하였고 이제 0.25초 마다 화살을 생성해서 날릴수 있게 코루틴 설정.
+                
+            }
+        }
     }
 
     private void FireArrow()
     {
         m_CurrentArrow.Fire(m_PullValue); // 당기는 값에 맞춰서 화살을 쏜다.
         m_CurrentArrow = null; // 발사한뒤 현재 가지고 있는 화살을 null로 없게끔 한다.
+        SoundManager.instance.FireArrow();
+        ArrowManager.instance.Arrow--;
+        ArrowManager.instance.RemainArrow();
     }
 }
