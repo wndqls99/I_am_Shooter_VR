@@ -54,16 +54,18 @@ public class Bow : MonoBehaviour
     {
         // Wait
         yield return new WaitForSeconds(waitTime); // yield(양보) -> update에서 1초가 지났는지 확인후 MoveNext를 호출한다.(다음 프레임까지 대기) 그러면 코드의 다음 부분이 실행된다.
+        while(ArrowManager.instance.Arrow > 0){
+            // Create, child
+            GameObject arrowObject = Instantiate(m_ArrowPrefab, m_Socket); // Instantiate을 통해 Prefab에 있는 화살을 m_Socket위치에 생성 -> 이후 arrowObject에 인스턴트화
 
-        // Create, child
-        GameObject arrowObject = Instantiate(m_ArrowPrefab, m_Socket); // Instantiate을 통해 Prefab에 있는 화살을 m_Socket위치에 생성 -> 이후 arrowObject에 인스턴트화
+            // Orient
+            arrowObject.transform.localPosition = new Vector3(0, 0, 0.425f); // 화살을 현 위로 위치(로컬좌표)시킨다. 월드좌표로 하면 활 밑에 자식으로 생성된 화살일경우 좌표가 다를수 있다. 0.425f는 이 활모델기준 가장 이상적인 좌표
+            arrowObject.transform.localEulerAngles = Vector3.zero; // 부모의 상대적인 회전량 Degree값을 Vector3로 접근하는 프로퍼티로 0(영점)으로 잡아준다.
 
-        // Orient
-        arrowObject.transform.localPosition = new Vector3(0, 0, 0.425f); // 화살을 현 위로 위치(로컬좌표)시킨다. 월드좌표로 하면 활 밑에 자식으로 생성된 화살일경우 좌표가 다를수 있다. 0.425f는 이 활모델기준 가장 이상적인 좌표
-        arrowObject.transform.localEulerAngles = Vector3.zero; // 부모의 상대적인 회전량 Degree값을 Vector3로 접근하는 프로퍼티로 0(영점)으로 잡아준다.
-
-        // Set
-        m_CurrentArrow = arrowObject.GetComponent<Arrow>(); // 이렇게 생성한 화살을 현제화살에 담아준다.
+            // Set
+            m_CurrentArrow = arrowObject.GetComponent<Arrow>(); // 이렇게 생성한 화살을 현제화살에 담아준다.
+        }
+        
     }
 
     public void Pull(Transform hand) // 당기기

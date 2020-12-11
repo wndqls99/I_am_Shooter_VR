@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Raycast : MonoBehaviour
 {
-    public Text text;
+    //public Text text;
     LineRenderer line;
     RaycastHit hitInfo;
     Ray ray;
@@ -36,19 +36,16 @@ public class Raycast : MonoBehaviour
 
             if (hitInfo.collider.gameObject.CompareTag("Button"))
             {
-                text.text = "버튼 들어옴";
                 hitInfo.collider.gameObject.GetComponent<ButtonState>().SetButton(ButtonState.State.On);
                 temp = hitInfo.collider.gameObject;
             }
 
             if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))//오른손 검지 트리거
             {
-                text.text = "버튼 클릭1";
                 if (hitInfo.collider.gameObject.CompareTag("Button"))
                 {
                     //버튼 사운드를 재생한다
                     SoundManager.instance.PlayBtnSound();
-                    text.text = "버튼 클릭2";
                     hitInfo.collider.gameObject.GetComponent<Button>().onClick.Invoke();
                     //temp = hitInfo.collider.gameObject;
                     hitInfo.collider.gameObject.GetComponent<ButtonState>().SetButton(ButtonState.State.On);
@@ -56,7 +53,6 @@ public class Raycast : MonoBehaviour
                 }
                 else
                 {
-                    text.text = "클릭만 되는중";
                 }
             }
             
@@ -65,7 +61,6 @@ public class Raycast : MonoBehaviour
         else
         {
             line.SetPosition(1, transform.position + (transform.forward * raycastDistance));
-            text.text = "nothing";
             if (temp != null)
             {
                 /*btnState.SetStateIdle();

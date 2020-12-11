@@ -56,8 +56,9 @@ public class Arrow : MonoBehaviour
 
         print("이름"+hitObject.name);
 
+        
         /*
-        //Transform parent = transform.root;
+        Transform parent = transform.root;
 
         //if(hitObject.name.Equals("Target")){
         if(hitObject.CompareTag("Target")){
@@ -65,8 +66,8 @@ public class Arrow : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 10);
             transform.localRotation = Quaternion.Euler(1, 0, 0);
             
-        }
-        */
+        }*/
+        
 
         // Disable Physics
         m_Rigidbody.isKinematic = true; // 외부의 힘(물리력)이 가해지지 않게 한다.
