@@ -2,18 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     private void Awake() {
         instance = this;
+        SetTargets();
     }
     [SerializeField] GameObject resultUI;
     [SerializeField] TextMeshProUGUI resultText;
     [SerializeField] TextMeshProUGUI gameText;
     [SerializeField] GameObject ray;
     //public GameObject[] targets;
-    int targets = 12;
+    int targets = 0;
+    public void SetTargets(){
+        switch(SceneManager.GetActiveScene().name){
+            case "Main1":
+                targets = 3;
+                break;
+            case "Main2":
+                targets = 4;
+                break;                
+            case "Main3":
+                targets = 12;
+                break;    
+        }
+
+    }
     public int Targets{
         get{return targets;}
         set{targets = value;}
@@ -39,7 +56,8 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         if(targets == 0){
-            GameClear();
+            Invoke("GameClear", 2.0f);
+            //GameClear();
         }
     }
 }
