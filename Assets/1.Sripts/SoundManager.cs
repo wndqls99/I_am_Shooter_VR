@@ -13,23 +13,34 @@ public class SoundManager : MonoBehaviour
     AudioSource audioSource;
     [SerializeField] AudioClip intro;
     [SerializeField] AudioClip btnSound;
+    [SerializeField] AudioClip arrowSound;
+    [SerializeField] AudioClip shotSound;
+    [SerializeField] AudioClip explosionSound;
     // Start is called before the first frame update
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = intro;
-        if(SceneManager.GetActiveScene().name == "Intro" || SceneManager.GetActiveScene().name == "Stage")
-        {
-            PlayIntroSound();
-        }
+
+        PlayIntroSound();
     }
     public void PlayIntroSound()
     {
-        audioSource.PlayOneShot(intro);
+        if(!audioSource.isPlaying)
+            audioSource.PlayOneShot(intro);
     }
     public void PlayBtnSound()
     {
         audioSource.PlayOneShot(btnSound);
+    }
+    public void FireArrow(){
+        audioSource.PlayOneShot(arrowSound);
+    }
+    public void PlayShot(){
+        audioSource.PlayOneShot(shotSound);
+    }
+    public void Explosion(){
+        audioSource.PlayOneShot(explosionSound);
     }
     // Update is called once per frame
     void Update()

@@ -1,0 +1,2 @@
+[1210/041607.445:ERROR:exception_handler_server.cc(470)] failed to open 38732
+[1210/042421.905:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)

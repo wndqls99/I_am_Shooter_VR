@@ -3,11 +3,14 @@
 public class Arrow : MonoBehaviour
 {
     public float m_Speed = 2000.0f; // 날아가는 속도 값
+    //public float m_Speed = 100.0f; // 날아가는 속도 값
     public Transform m_Tip = null; // 히트 감지를 위한 화살촉
 
     private Rigidbody m_Rigidbody = null; // 물리 제어를 위한 강체
     private bool m_IsStopped = true; // 공기중을 날아가다 가고 있는지 확인 (비행 여부 값)
     private Vector3 m_LastPosition = Vector3.zero; // 마지막 위치를 0 으로 한다.
+    [SerializeField] GameObject particle;
+    public GameObject explosionPrefab;
 
     private void Awake()
     {
@@ -17,6 +20,7 @@ public class Arrow : MonoBehaviour
     private void Start()
     {
         m_LastPosition = transform.position; // 마지막 위치를 현재 위치(활 위에 있는 위치)로 지정
+        particle.SetActive(false);
     }
 
     private void FixedUpdate()
@@ -46,6 +50,50 @@ public class Arrow : MonoBehaviour
 
         // Parent
         transform.parent = hitObject.transform; // 부모 위치를 충돌체 위치로 잡아준다.
+ 
+        var emptyObject = new GameObject("Hit_Temp_Object");
+        emptyObject.transform.parent = hitObject.transform;
+        gameObject.transform.parent = emptyObject.transform;
+
+        transform.localPosition = m_LastPosition;
+        SoundManager.instance.PlayShot();
+        print("이름"+hitObject.name);
+        switch(hitObject.name){
+            case "Layer1" : 
+                print("1번 맞음");
+                ScoreManager.instance.Score += 20;
+                PlayExplosion(hitObject);
+            break;
+            case "Layer2" : 
+                print("2번 맞음");
+                ScoreManager.instance.Score += 50;
+                PlayExplosion(hitObject);
+            break;
+            case "Layer3" : 
+                print("3번 맞음");
+                ScoreManager.instance.Score += 70;
+                PlayExplosion(hitObject);
+            break;
+            case "Layer4" : 
+                print("4번 맞음");
+                ScoreManager.instance.Score += 100;
+                PlayExplosion(hitObject);
+            break;
+            default:
+            break;
+        }
+        
+        /*
+        Transform parent = transform.root;
+
+        //if(hitObject.name.Equals("Target")){
+        if(hitObject.CompareTag("Target")){
+            transform.parent = parent.transform;
+            transform.localScale = new Vector3(1, 1, 10);
+            transform.localRotation = Quaternion.Euler(1, 0, 0);
+            
+        }*/
+        
 
         // Disable Physics
         m_Rigidbody.isKinematic = true; // 외부의 힘(물리력)이 가해지지 않게 한다.
@@ -53,8 +101,19 @@ public class Arrow : MonoBehaviour
 
         // Damage
         CheckForDamage(hitObject); // 충돌체에 대한 데미지 계산
-    }
 
+        // if(transform.parent.gameObject.name.Equals("Hit_Temp_Object"))
+        //     Destroy(transform.parent.gameObject, 1.5f);
+    }
+    public void PlayExplosion(GameObject obj){
+        
+        SoundManager.instance.Explosion();
+        GameObject exp = Instantiate(explosionPrefab);
+        exp.transform.position = obj.transform.position;
+        Destroy(exp, 1.5f);
+        Destroy(obj.transform.parent.gameObject, 0.1f);
+        GameManager.instance.Targets--;
+    }
     private void CheckForDamage(GameObject hitObject) // 데미지 계산
     {
         MonoBehaviour[] behaviours = hitObject.GetComponents<MonoBehaviour>(); // 모든 충돌체에 대한 정보를 가져온다.
@@ -73,6 +132,7 @@ public class Arrow : MonoBehaviour
 
     public void Fire(float pullValue) // 화살을 쏠때 (활에서 호출)
     {
+        particle.SetActive(true);
         m_LastPosition = transform.position; // 마지막 위치를 현재 위치로 한다. (쏘여진 위치, 즉 부모로부터 분리된 위치)
 
         // Flag
@@ -84,7 +144,7 @@ public class Arrow : MonoBehaviour
         // 물리적용(Physics)
         m_Rigidbody.isKinematic = false; // 외부의 힘(물리력)이 가해지게 한다.
         m_Rigidbody.useGravity = true; // 중력에 영향을 받게 한다.
-        m_Rigidbody.AddForce(transform.forward * (pullValue * m_Speed)); // 강체에 물리힘을 적용하여 이동하게끔한다 (윌드 좌표상 앞으로 보는 방향에 * (당기는 힘 * 속도))
+        m_Rigidbody.AddForce(transform.forward * (pullValue * m_Speed * 0.7f)); // 강체에 물리힘을 적용하여 이동하게끔한다 (윌드 좌표상 앞으로 보는 방향에 * (당기는 힘 * 속도))
 
         Destroy(gameObject, 5.0f); // 5초뒤에 삭제 ---> 아직 날아가고 있어도 삭제가 된다.
     }

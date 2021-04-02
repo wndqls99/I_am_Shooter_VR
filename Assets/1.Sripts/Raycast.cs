@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Raycast : MonoBehaviour
 {
-    public Text text;
+    //public Text text;
     LineRenderer line;
     RaycastHit hitInfo;
     Ray ray;
@@ -34,29 +34,25 @@ public class Raycast : MonoBehaviour
             line.SetPosition(1, hitInfo.point);
 
 
-            if (hitInfo.collider.gameObject.CompareTag("Button"))
-            {
-                text.text = "버튼 들어옴";
-                hitInfo.collider.gameObject.GetComponent<ButtonState>().SetButton(ButtonState.State.On);
-                temp = hitInfo.collider.gameObject;
-            }
+            //if (hitInfo.collider.gameObject.CompareTag("Button"))
+            //{
+                //hitInfo.collider.gameObject.GetComponent<ButtonState>().SetButton(ButtonState.State.On);
+                //temp = hitInfo.collider.gameObject;
+            //}
 
             if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))//오른손 검지 트리거
             {
-                text.text = "버튼 클릭1";
                 if (hitInfo.collider.gameObject.CompareTag("Button"))
                 {
                     //버튼 사운드를 재생한다
                     SoundManager.instance.PlayBtnSound();
-                    text.text = "버튼 클릭2";
                     hitInfo.collider.gameObject.GetComponent<Button>().onClick.Invoke();
                     //temp = hitInfo.collider.gameObject;
-                    hitInfo.collider.gameObject.GetComponent<ButtonState>().SetButton(ButtonState.State.On);
+                    //hitInfo.collider.gameObject.GetComponent<ButtonState>().SetButton(ButtonState.State.On);
 
                 }
                 else
                 {
-                    text.text = "클릭만 되는중";
                 }
             }
             
@@ -65,7 +61,6 @@ public class Raycast : MonoBehaviour
         else
         {
             line.SetPosition(1, transform.position + (transform.forward * raycastDistance));
-            text.text = "nothing";
             if (temp != null)
             {
                 /*btnState.SetStateIdle();
@@ -73,7 +68,7 @@ public class Raycast : MonoBehaviour
                 switch (temp.gameObject.tag)
                 {
                     case "Button":
-                        temp.GetComponent<ButtonState>().SetButton(ButtonState.State.Idle);
+                        //temp.GetComponent<ButtonState>().SetButton(ButtonState.State.Idle);
                         break;
                 }
                 temp = null;

@@ -16,5 +16,6 @@ public class OculusInput : MonoBehaviour
 
         if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger, m_Controller)) // 버튼을 놓으면
             m_Bow.Release(); // 활시위를 놓는다
+            
     }
 }
