@@ -9,3 +9,6 @@ IamShooterVR
 - 진행 기간 : 2021.01   
 - 사용 언어 : <img src="https://img.shields.io/badge/C Sharp-239120?style=flat-square&logo=C Sharp&logoColor=white"/></a>   
 - 프로젝트 구현된 점 : 디자인패턴(Singleton), DB(<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=SQLite&logoColor=white"/></a>)Acess  
+
+
+<iframe src="https://www.youtube.com/watch?v=q-4oN24EmWg" frameborder="0" allowfullscreen="true"> </iframe>
